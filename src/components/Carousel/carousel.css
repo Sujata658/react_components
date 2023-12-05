@@ -1,0 +1,28 @@
+/* carousel css */
+
+div.carousel-container {
+    position: relative;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  .carousel-image-container {
+    transition: opacity 1s ease-in-out;
+  }
+  .carousel-image-container img {
+    width: 100%;
+    height: auto;
+  }
+  .carousel-circles, .carousel-container button {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+  }
+  .carousel-container button{
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }

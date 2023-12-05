@@ -1,7 +1,7 @@
 import { useState } from "react";
 import pictures from "./const.carousel"
 import { icons } from "./const.carousel";
-
+import "./carousel.css"
 
 export default function Carousel() {
     const [active, setActive] = useState(0);
@@ -16,16 +16,16 @@ export default function Carousel() {
   
     return (
       <>
-        <h1>Carousel</h1>
         <div className='carousel-container'>
-          <div key={pictures[active].id} className="image-container">
+        <h1>Carousel</h1>
+          <div key={pictures[active].id} className="carousel-image-container">
             <img src={pictures[active].src} alt={pictures[active].id} />
           </div>
   
           <button onClick={handleLeftClick}>{icons.left}</button>
           
             {pictures.map((_, i) => (
-              <span key={i} onClick={() => setActive(i)} className='circles'>
+              <span key={i} onClick={() => setActive(i)} className='carousel-circles'>
                 {i === active ? icons.filledCircle : icons.hollowCircle}
               </span>
             ))}
