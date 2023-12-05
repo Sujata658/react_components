@@ -4,3 +4,4 @@ Welcome to the React Components Showcase project! This repository is a collectio
 
 ## Available Components as of now
 1. Carousel
+2. Responsive Navbar
