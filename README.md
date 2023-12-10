@@ -2,8 +2,7 @@
 
 Welcome to the React Components Showcase project! This repository is a collection of useful React components.
 
-## Available Co
-mponents as of now
+## Available Components as of now
 1. Carousel
 ![Screenshot from 2023-12-10 16-01-44](https://github.com/Sujata658/react_components/assets/58798972/58b4994a-d2c9-4ab2-a18d-99e87ea86236)
 2. Responsive Navbar
