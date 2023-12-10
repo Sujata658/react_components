@@ -3,7 +3,7 @@ import { useState } from "react";
 import "./navbar.css";
 import logo from "./logo.png";
 import navelements from "./const.Navbar";
-import { faBurger } from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Navbar() {
@@ -24,7 +24,7 @@ export default function Navbar() {
             ))}
           </div>
           <div className="nav-burger" onClick={handleClick}>
-            <FontAwesomeIcon icon={faBurger} />
+            <FontAwesomeIcon icon={faBars} />
           </div>
         </div>
       );

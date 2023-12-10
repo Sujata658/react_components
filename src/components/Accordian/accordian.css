@@ -1,0 +1,46 @@
+.accorddiv {
+    color: black;
+    background-color: #f1f1f1f1;
+    font-size: 22px;
+    padding: 30px 100px;
+    margin: 5% auto; 
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 60%; 
+}
+
+.accordtitle {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.accordquestions {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #1a1a1a;
+}
+.accordquestion-icon{
+
+    cursor: pointer;
+}
+
+.accordquestion {
+    border-top: 1px solid #1a1a1a3d;
+    border-bottom: 1px solid #1a1a1a38;
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+}
+.accordanswers{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #1a1a1ad3;
+    
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: justify;
+}
