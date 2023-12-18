@@ -11,4 +11,4 @@ Welcome to the React Components Showcase project! This repository is a collectio
 3. Accordian
 ![Screenshot from 2023-12-10 16-00-55](https://github.com/Sujata658/react_components/assets/58798972/e933283b-0de4-4c98-9abf-c4d8ec5c9ef6)
 4. Login
-![Alt text](image.png)
+![Screenshot from 2023-12-18 20-38-42](https://github.com/Sujata658/react_components/assets/58798972/985c4f6c-8dbf-4541-b6ef-4ebd720edb32)
